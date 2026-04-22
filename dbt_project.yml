@@ -37,8 +37,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   DBT-and-Snowflake:
-    staging:
-      +materialized: view
+    jaffle_shop:
+      staging:
+        +materialized: view
 
     marts:
       +materialized: table
