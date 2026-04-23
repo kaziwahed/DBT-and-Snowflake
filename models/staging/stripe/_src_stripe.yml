@@ -6,3 +6,6 @@ sources:
     schema: STRIPE
     tables:
       - name: payment
+
+
+
